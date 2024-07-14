@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
+};
 
 export default nextConfig;
