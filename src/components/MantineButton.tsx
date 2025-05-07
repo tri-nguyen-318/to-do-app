@@ -1,16 +1,23 @@
-import React from 'react';
-import { Button } from '@mantine/core';
+import React, { ComponentProps } from 'react';
+import { Button, ButtonProps } from '@mantine/core';
 
-type Props = {
+// type Props = ComponentProps<typeof Button> ;
+type Props = ButtonProps & {
   onClick: () => void;
-  children: React.ReactNode;
 };
 
-const MantineButton: React.FC<Props> = ({ onClick, children }) => {
+const MantineButton: React.FC<Props> = ({
+  color,
+  onClick,
+  children,
+  ...props
+}) => {
   return (
     <Button
-      variant="filled"
       onClick={onClick}
+      fullWidth
+      color={color}
+      {...props}
     >
       {children}
     </Button>

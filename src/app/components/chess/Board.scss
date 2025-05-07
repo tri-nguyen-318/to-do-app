@@ -1,0 +1,13 @@
+:root {
+  --border-background: var(--mantine-color-orange-9);
+  --cell-background: var(--mantine-color-cyan-2);
+  --cell-background-valid: var(--mantine-color-pink-8);
+  --cell-background-selected: var(--mantine-color-orange-3);
+}
+.board {
+  border: 32px solid var(--border-background);
+
+  .board-content {
+    background: var(--border-background);
+  }
+}

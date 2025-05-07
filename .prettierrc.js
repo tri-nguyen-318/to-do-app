@@ -5,7 +5,7 @@ module.exports = {
   semi: true,
   experimentalTernaries: false,
   singleQuote: true,
-  jsxSingleQuote: false,
+  jsxSingleQuote: true,
   quoteProps: 'as-needed',
   trailingComma: 'all',
   singleAttributePerLine: true,
@@ -18,4 +18,5 @@ module.exports = {
   tabWidth: 2,
   useTabs: false,
   embeddedLanguageFormatting: 'auto',
+  jsxBracketSameLine: false,
 };

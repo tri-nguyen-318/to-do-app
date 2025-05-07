@@ -6,9 +6,7 @@ import React from 'react';
 type Props = {};
 
 export default function NewTaskButton({}: Props) {
-  const onAddNewTask = () => {
-    console.log('Add new task');
-  };
+  const onAddNewTask = () => {};
 
   return <MantineButton onClick={onAddNewTask}>Add new task</MantineButton>;
 }
