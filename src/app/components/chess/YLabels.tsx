@@ -20,7 +20,7 @@ export default function YLabels({ yCells, className, position }: Props) {
       {yCells.map((item) => (
         <div
           key={item}
-          className="flex-1 flex justify-center items-center w-full"
+          className='flex-1 flex justify-center items-center w-full'
         >
           {item}
         </div>

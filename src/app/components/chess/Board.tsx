@@ -18,19 +18,19 @@ export default function Board() {
     >
       <YLabels
         yCells={yCells}
-        position="left"
+        position='left'
       />
       <YLabels
         yCells={yCells}
-        position="right"
+        position='right'
       />
       <XLabels
         xCells={xCells}
-        position="top"
+        position='top'
       />
       <XLabels
         xCells={xCells}
-        className="bottom"
+        className='bottom'
       />
 
       <div className={clsx('grid grid-cols-8 h-full board-content')}>

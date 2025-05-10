@@ -1,11 +1,9 @@
 import React from 'react';
 import NewTaskButton from './NewTaskButton';
 
-type Props = {};
-
-export default function Body({}: Props) {
+export default function Body() {
   return (
-    <div className="">
+    <div className=''>
       <NewTaskButton />
     </div>
   );

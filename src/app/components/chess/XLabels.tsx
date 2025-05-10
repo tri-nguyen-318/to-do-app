@@ -20,7 +20,7 @@ export default function XLabels({ xCells, className, position }: Props) {
       {xCells.map((item) => (
         <div
           key={item}
-          className="flex-1 flex items-center justify-center"
+          className='flex-1 flex items-center justify-center'
         >
           {item}
         </div>
